@@ -1,6 +1,6 @@
 ```c
 //question two
-#include<stdio.h>
+#include<stdio.h>//C
 #define AVG(X,Y) (1/(((1/X)+(1/Y))/2))
 int main(void)
 {

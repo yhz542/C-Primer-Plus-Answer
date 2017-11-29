@@ -1,4 +1,4 @@
-
+```c
 //question two
 #include<stdio.h>
 #define AVG(X,Y) (1/(((1/X)+(1/Y))/2))
@@ -108,7 +108,7 @@ int main(void)
         };
         puts("Initial list:");
         shownames(staff,NUM);
-        qsort(staff,NUM,sizeof(struct names),comp);
+`        qsort(staff,NUM,sizeof(struct names),comp);
         puts("\nSorted list:");
         shownames(staff,NUM);
         return 0;
@@ -169,3 +169,4 @@ void show_array(const double ar[],int n)
         putchar('\n');
         return;
 }
+```

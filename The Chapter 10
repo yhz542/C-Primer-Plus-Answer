@@ -370,7 +370,7 @@ void display(double array[][5],double aver[],double aver_all,double max)
         printf("and the max is %f",max);
         return;
 }
-*/
+
 //question thirteen
 void store(int length,double [],double [],double [],double [][length],int rows);
 double aver_per(double [],int length);
